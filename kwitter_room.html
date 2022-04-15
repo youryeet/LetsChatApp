@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> Let's Chat App Project</title>
+        <script src="kwitter_room.js"></script>
+        <link rel="stylesheet" href="kwitter_room.css">
+    </head>
+    <body>
+        <div class="container" id="div1">
+            <button onclick="logout()" id="logout_button" style="background-color: red;"> Logout </button>
+       
+        <center>
+            
+            <h1> Kwitter </h1>
+            <h2> Welcome!</h2>
+            <label> #Add Room:</label>
+            <br>
+            <br>
+            <input placeholder="#Add Room" class="form-control" id="room_name" type="text">
+            <br> 
+            <br>
+            <button onclick="addRoom()" id="add_room" class="btn btn-success"> #Add Room</button>
+            <h3> #TrendingRooms</h1>
+            <div id="output">
+
+            </div>
+        </center>
+        </div>
+
+    </body>
+</html>
